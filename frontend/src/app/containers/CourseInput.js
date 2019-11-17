@@ -35,14 +35,6 @@ export default () => {
 
     const onSubmitBtn = event => {
         event.preventDefault();
-        console.log({
-            id : uuid(),
-            title: title,
-            prof:  prof,
-            domain: domain,
-            nrOfLessons: nrOfLessons,
-            completed: completed
-        });
         addCourse({
             id : uuid(),
             title: title,
